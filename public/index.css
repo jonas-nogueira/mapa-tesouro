@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app-container {
+  height: 100%;
+  width: 100%;
+}
+
+.app-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+body{
+  background-color: #9C19E0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.qr-code-result-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.qr-image-wrapper section { 
+  border-radius: 8px;                   
+}
+
+
+.qr-image-wrapper section div {
+  box-shadow: unset !important;     
+}
