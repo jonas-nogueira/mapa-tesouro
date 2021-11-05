@@ -19,7 +19,8 @@ body,
   grid-template-rows: auto 1fr;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("img/bg.webp");
+  background-image: url("img/bg.png");
+  padding: 16px;
 }
 
 body{
