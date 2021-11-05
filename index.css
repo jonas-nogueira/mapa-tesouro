@@ -20,7 +20,10 @@ body,
 }
 
 body{
-  background-color: #9C19E0;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/bg.webp");
   font-family: 'Roboto', sans-serif;
 }
 
