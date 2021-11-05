@@ -17,13 +17,14 @@ body,
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/bg.webp");
 }
 
 body{
   background-color: #fff;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("img/bg.webp");
+  
   font-family: 'Roboto', sans-serif;
 }
 
