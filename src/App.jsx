@@ -7,17 +7,21 @@ export default function App() {
   return (
     <div className="app-container">
       <QrReader
-        delay={500}
+        delay={300}
         onError={(error) => alert(error)}
         onScan={(data) => {
           if (data !== null) {
-            setQRCodeData(data);
+            setQRCodeData(decodeURI(data));
           }
         }}
         className="qr-image-wrapper"
       />
       <div className="qr-code-result-container">
-        {QRCodeData}
+        {QRCodeData && (
+        <div className="qr-code-result">
+          {QRCodeData}
+        </div>
+        )}
       </div>
     </div>
   );
